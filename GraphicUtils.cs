@@ -1,4 +1,27 @@
-﻿using System;
+﻿/* Notes:
+ * 
+ * I want the program to look at least somewhat decent and
+ * so I'll try and put in a little bit of an interface.
+ * 
+ * I think I want it to maybe look a little like nano?
+ * 
+ * So what we need is a nice looking user prompt and a header
+ * at the top of the console that gives the user the program
+ * name, mode and maybe my name at the top.
+ * 
+ * Also I want to be able to save the console buffer so
+ * users can navigate between different windows (workspaces)
+ * and modes etcetera (without having their work wiped out).
+ * 
+ * Think of it like moving between the Scientific and Programmer
+ * modes in the Windows calculator?
+ * 
+ * This could be complicated though so I'll tackle it last when I
+ * know all the MathUtils work, for now all the ANSI stuff should
+ * work though.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
