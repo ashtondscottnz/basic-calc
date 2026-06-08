@@ -1,4 +1,6 @@
-﻿namespace basic_calc
+﻿using static basic_calc.GraphicUtils;
+
+namespace basic_calc
 {
     internal class Program
     {
